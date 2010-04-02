@@ -2,9 +2,9 @@ A collection of Capistrano-recipes I use in different Projects.
 
 == info.rb ==
 
-  info:tail        Tail all or a single remote file
-  info:version     Display the currently deployed Application, Revision and Release
-  info:uname       Display the uname
+  info:tail          Tail all or a single remote file
+  info:version       Display the currently deployed Application, Revision and Release
+  info:uname         Display the uname
 
 == newrelic.rb ==
 
@@ -13,3 +13,9 @@ A collection of Capistrano-recipes I use in different Projects.
 == database.rb ==
 
   application:link_database_config   Link the database config into the deployed release
+
+== sysadmin.rb ==
+
+  apt:update         Update packagelist for aptitude
+  apt:upgrade        Upgrade packages as recommended by aptitude
+  apache:restart     Restart Apache Webserver
