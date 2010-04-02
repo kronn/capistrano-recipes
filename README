@@ -10,3 +10,6 @@ A collection of Capistrano-recipes I use in different Projects.
 
   Load a recipe from a vendored newrelic-gem to enable deployment notifications
 
+== database.rb ==
+
+  application:link_database_config   Link the database config into the deployed release
