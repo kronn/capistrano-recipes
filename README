@@ -19,3 +19,7 @@ A collection of Capistrano-recipes I use in different Projects.
   apt:update         Update packagelist for aptitude
   apt:upgrade        Upgrade packages as recommended by aptitude
   apache:restart     Restart Apache Webserver
+
+== notes.rb ==
+
+  deploy:output_notes    output doc/DEPLOYMENT_NOTES
